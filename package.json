@@ -1,0 +1,31 @@
+{
+  "name": "ttb-node-boxid",
+  "version": "0.1.0",
+  "description": "ttb-node-boxid is a Node-RED node for TimeSquAir to retrieve the device identifier",
+  "keywords": [
+    "thethingbox",
+    "timesquair"
+  ],
+  "main": "none",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "node-red": {
+    "nodes": {
+      "ttb-node-boxid": "nodes/ttb-node-boxid.js"
+    }
+  },
+  "dependencies": {
+    "node-machine-id": "1.1.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thethingbox/ttb-node-boxid.git"
+  },
+  "author": "thethingbox <thethingbox@gmail.com> (http://thethingbox.io/)",
+  "license": "http://www.wtfpl.net",
+  "bugs": {
+    "url": "https://github.com/TheThingBox/ttb-node-boxid/issues"
+  },
+  "homepage": "https://github.com/TheThingBox/ttb-node-boxid#readme"
+}
